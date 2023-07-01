@@ -8,8 +8,18 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "animejs": "^3.2.1",
+    "axios": "^1.4.0",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "d3-svg-legend": "^2.25.6",
+    "d3tooltip": "^3.0.0",
+    "echarts": "^5.4.2",
+    "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
+    "vue": "^3.2.13",
+    "vue-fullpage.js": "^0.2.15",
+    "vuetify": "^3.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -17,6 +27,7 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "d3": "^7.8.5",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "less": "^4.0.0",

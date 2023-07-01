@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <AllPages></AllPages>
+<!--  <ScreenPage8></ScreenPage8>-->
+  <div style="height: 100%;background: url(@/static/img/overlay.png);"></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AllPages from "@/components/AllPages.vue";
+// import ScreenPage8 from "@/components/Screens/ScreenPage8.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // ScreenPage8,
+    AllPages,
   }
 }
 </script>
 
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
